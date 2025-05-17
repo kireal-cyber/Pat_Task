@@ -1,11 +1,12 @@
 using System;
-
+using Reqnroll;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 
 namespace EHU.Pages
 {
+    
     public class AboutPage
     {
         private readonly IWebDriver _driver;
@@ -20,7 +21,7 @@ namespace EHU.Pages
         private By aboutLink => By.LinkText("About");
         private By aboutHeader => By.CssSelector("h1");
 
-
+        
         public void GoToAboutPage()
         {
             _driver.Navigate().GoToUrl("https://en.ehu.lt/");

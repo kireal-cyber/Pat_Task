@@ -104,3 +104,9 @@
 /Users/kirylnavitski/Pat_Task/Pat_Task/obj/Debug/net8.0/Pat_Task.pdb
 /Users/kirylnavitski/Pat_Task/Pat_Task/obj/Debug/net8.0/Pat_Task.genruntimeconfig.cache
 /Users/kirylnavitski/Pat_Task/Pat_Task/obj/Debug/net8.0/ref/Pat_Task.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/bin/Debug/net8.0/Reqnroll.NUnit.ReqnrollPlugin.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/bin/Debug/net8.0/CucumberExpressions.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/bin/Debug/net8.0/Gherkin.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/bin/Debug/net8.0/Reqnroll.dll
+/Users/kirylnavitski/Pat_Task/Pat_Task/obj/Debug/net8.0/Pat_Task.sourcelink.json

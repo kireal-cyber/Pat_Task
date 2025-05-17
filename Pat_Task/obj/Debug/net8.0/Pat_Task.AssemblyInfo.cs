@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pat_Task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68f856408acd81154d119b3efe1f203e4c6bdc1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pat_Task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pat_Task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

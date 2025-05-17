@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[4.5.0, )"
             },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.20.0, )"

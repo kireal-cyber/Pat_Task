@@ -12,6 +12,8 @@
           "Microsoft.NET.Test.Sdk": "17.9.0",
           "NUnit": "3.14.0",
           "NUnit3TestAdapter": "4.5.0",
+          "Reqnroll": "2.4.0",
+          "Reqnroll.NUnit": "2.4.0",
           "Selenium.Support": "4.20.0",
           "Selenium.WebDriver": "4.20.0",
           "WebDriverManager": "2.11.3"
@@ -32,6 +34,14 @@
           }
         }
       },
+      "Cucumber.CucumberExpressions/17.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.0.0"
+          }
+        }
+      },
       "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.20.0"
@@ -43,11 +53,27 @@
           }
         }
       },
+      "Gherkin/30.0.0": {
+        "runtime": {
+          "lib/net8.0/Gherkin.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.0.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.9.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "17.900.724.7204"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.2",
+            "fileVersion": "8.0.1024.46610"
           }
         }
       },
@@ -335,6 +361,38 @@
         }
       },
       "NUnit3TestAdapter/4.5.0": {},
+      "Reqnroll/2.4.0": {
+        "dependencies": {
+          "Cucumber.CucumberExpressions": "17.1.0",
+          "Gherkin": "30.0.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Reqnroll.NUnit/2.4.0": {
+        "dependencies": {
+          "NUnit": "3.14.0",
+          "Reqnroll": "2.4.0",
+          "Reqnroll.Tools.MsBuild.Generation": "2.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Reqnroll.Tools.MsBuild.Generation/2.4.0": {
+        "dependencies": {
+          "Reqnroll": "2.4.0"
+        }
+      },
       "Selenium.Support/4.20.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.20.0"
@@ -379,6 +437,7 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         }
       },
+      "System.Text.Json/8.0.5": {},
       "WebDriverManager/2.11.3": {
         "dependencies": {
           "AngleSharp": "0.16.0",
@@ -407,6 +466,13 @@
       "path": "anglesharp/0.16.0",
       "hashPath": "anglesharp.0.16.0.nupkg.sha512"
     },
+    "Cucumber.CucumberExpressions/17.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZFDLLwrUCKuGDXQzmAWZa+kQFpVmVwWD8wEl0UWGOR83UQfzqg8hZeSSNUOXlW0Kh3vMO6kEm3FpNC4amKMaw==",
+      "path": "cucumber.cucumberexpressions/17.1.0",
+      "hashPath": "cucumber.cucumberexpressions.17.1.0.nupkg.sha512"
+    },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "type": "package",
       "serviceable": true,
@@ -414,12 +480,26 @@
       "path": "dotnetseleniumextras.waithelpers/3.11.0",
       "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
     },
+    "Gherkin/30.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jZM9zm9eg62vRSAOtYvcmQh4w0oYqjP6myKxMaJAlQq9VCKm4wnTfHhS5QRnLhx/sH3R5jTaoQAKLs5hhjuq7g==",
+      "path": "gherkin/30.0.0",
+      "hashPath": "gherkin.30.0.0.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/17.9.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-RGD37ZSrratfScYXm7M0HjvxMxZyWZL4jm+XgMZbkIY1UPgjUpbNA/t+WTGj/rC/0Hm9A3IrH3ywbKZkOCnoZA==",
       "path": "microsoft.codecoverage/17.9.0",
       "hashPath": "microsoft.codecoverage.17.9.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
+      "path": "microsoft.extensions.dependencymodel/8.0.2",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.9.0": {
       "type": "package",
@@ -484,6 +564,27 @@
       "path": "nunit3testadapter/4.5.0",
       "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
     },
+    "Reqnroll/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JmeI9Idbiao5dPS4jeeof+esLBDjcx2BXjww4UW654IL6sDM/p7Rbkr2qWH+Ac8A3fC96rmO4w0x3TYYFzVuwQ==",
+      "path": "reqnroll/2.4.0",
+      "hashPath": "reqnroll.2.4.0.nupkg.sha512"
+    },
+    "Reqnroll.NUnit/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XxRw1mFcQy+ovkktCuv+Sk71nk6EBfseMeOGN0tfrx3/EM+VXArfncTumXepRUvI1aqKy7N13nPqUGwx2TuhwA==",
+      "path": "reqnroll.nunit/2.4.0",
+      "hashPath": "reqnroll.nunit.2.4.0.nupkg.sha512"
+    },
+    "Reqnroll.Tools.MsBuild.Generation/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/OZ7emUyrNsykdt5X0g6TWVa8EVxv6J1kM6E/Qe5auksnCKim+nYNJ+LWrQzHD/NvX/yS0Akub0zMTEnyzMQxQ==",
+      "path": "reqnroll.tools.msbuild.generation/2.4.0",
+      "hashPath": "reqnroll.tools.msbuild.generation.2.4.0.nupkg.sha512"
+    },
     "Selenium.Support/4.20.0": {
       "type": "package",
       "serviceable": true,
@@ -539,6 +640,13 @@
       "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
       "path": "system.text.encoding.codepages/5.0.0",
       "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "WebDriverManager/2.11.3": {
       "type": "package",
